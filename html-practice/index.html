@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BrightCart & Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">BrightCart<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="navLinks" class="nav-links">
+      <a href="#home">Home</a><a href="#shop">Shop</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">WEEK 1 FRONTEND PRACTICE</p>
+        <h1>Good design.<br><span>Simple shopping.</span></h1>
+        <p>A sample e-commerce landing page built with semantic HTML, responsive CSS, Flexbox, Grid, and JavaScript.</p>
+        <a class="button" href="#shop">Explore products</a>
+      </div>
+      <div class="hero-art" aria-label="Decorative product display">
+        <div class="orb"></div><div class="product-box"><span>NEW</span><strong>Everyday<br>Essentials</strong><small>BrightCart collection</small></div>
+      </div>
+    </section>
+
+    <section class="section" id="shop">
+      <div class="section-heading"><p class="eyebrow">FEATURED</p><h2>Popular products</h2><p>Example product cards for an e-commerce storefront.</p></div>
+      <div class="product-grid">
+        <article class="product-card"><div class="product-art art-one">🎧</div><h3>Wireless Headphones</h3><p>Comfortable sound for everyday use.</p><div class="product-bottom"><strong>₹1,499</strong><button class="small-button add-cart">Add to cart</button></div></article>
+        <article class="product-card"><div class="product-art art-two">⌚</div><h3>Smart Watch</h3><p>Keep track of your daily activity.</p><div class="product-bottom"><strong>₹2,299</strong><button class="small-button add-cart">Add to cart</button></div></article>
+        <article class="product-card"><div class="product-art art-three">🎒</div><h3>Everyday Backpack</h3><p>A practical bag for work and travel.</p><div class="product-bottom"><strong>₹899</strong><button class="small-button add-cart">Add to cart</button></div></article>
+      </div>
+      <p class="cart-message" id="cartMessage" aria-live="polite">Cart items: 0</p>
+    </section>
+
+    <section class="section portfolio-section" id="portfolio">
+      <div class="section-heading"><p class="eyebrow">PERSONAL PORTFOLIO</p><h2>Hi, I'm Swarup Patil.</h2><p>B.Sc. Computer Science student (Third Year) interested in front-end development with HTML, CSS, JavaScript, and React.</p></div>
+      <div class="portfolio-grid">
+        <article class="info-card"><h3>About</h3><p>I enjoy creating clean, useful websites and learning how frontend interfaces work.</p></article>
+        <article class="info-card"><h3>Education</h3><p><strong>Education:</strong> B.Sc. Computer Science, Third Year<br><strong>Skills:</strong> HTML, CSS, JavaScript, React</p></article>
+        <article class="info-card"><h3>Projects</h3><p><strong>BroCode Gaming Hub:</strong> Gaming-themed website project.<br><a href="https://brocode-gaming-hub.pages.dev/" target="_blank" rel="noopener noreferrer">View live project ↗</a><br><strong>Week 1 Practice:</strong> Responsive e-commerce page and form validation.</p></article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading"><p class="eyebrow">GET IN TOUCH</p><h2>Contact me</h2><p>Fill in the form to test JavaScript validation.</p></div>
+      <form id="contactForm" class="contact-form" novalidate>
+        <label for="fullName">Full name</label><input id="fullName" name="fullName" type="text" placeholder="Enter your name">
+        <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com">
+        <label for="message">Message</label><textarea id="message" name="message" rows="4" placeholder="Write a short message"></textarea>
+        <button class="button" type="submit">Submit form</button>
+        <p id="formFeedback" class="feedback" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  <footer><p>© 2026 Swarup Patil · Week 1 Full Stack Development Practice</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>

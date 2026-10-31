@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with HTML5",
+    "category": "HTML",
+    "date": "2026-10-02",
+    "excerpt": "Learn semantic elements such as header, nav, main, section, and footer to give web pages a clear structure."
+  },
+  {
+    "id": 2,
+    "title": "A Practical Guide to CSS Grid",
+    "category": "CSS",
+    "date": "2026-10-05",
+    "excerpt": "CSS Grid makes two-dimensional layouts easier to build, from product galleries to complete page sections."
+  },
+  {
+    "id": 3,
+    "title": "Responsive Navigation with Flexbox",
+    "category": "CSS",
+    "date": "2026-10-08",
+    "excerpt": "Combine Flexbox and a small-screen menu toggle to create navigation that works on phones and desktops."
+  },
+  {
+    "id": 4,
+    "title": "JavaScript Form Validation",
+    "category": "JavaScript",
+    "date": "2026-10-12",
+    "excerpt": "Validate required fields and email formats in the browser before displaying a successful form message."
+  },
+  {
+    "id": 5,
+    "title": "Understanding React Props and State",
+    "category": "React",
+    "date": "2026-10-16",
+    "excerpt": "Props pass information into reusable components, while state stores data that can change as users interact."
+  },
+  {
+    "id": 6,
+    "title": "Building a Small React Blog",
+    "category": "React",
+    "date": "2026-10-20",
+    "excerpt": "Render cards from JSON data and use search and category filters to help readers find relevant posts."
+  }
+]
